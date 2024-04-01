@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  background: #f5e8c7;
+}
+header {
+  background: #363062;
+  text-align: center;
+  font-size: 2em;
+  padding: 40px 10px;
+  color: #f5e8c7;
+}
+nav {
+  text-align: center;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  background: #818fb4;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #435585;
+}
+li:hover a {
+  color: #f5e8c7;
+}
+a {
+  color: black;
+}
+main {
+  padding: 10px;
+}
+.upBloks {
+  text-align: center;
+}
+.downBloks {
+  text-align: center;
+}
+.mainInform {
+  margin: 10px 0px;
+  padding: 0px 60px;
+}
+.normalBox {
+  border-bottom: 3px solid #818fb4;
+  margin-bottom: 20px;
+}
+.informUpBox {
+  font-size: 1.7em;
+  padding: 0px 10px;
+  color: #363062;
+}
+.informDownBox {
+  text-align: center;
+}
+.informDownBox img {
+  border-radius: 5px;
+  border: 3px solid #363062;
+}
+.text {
+  float: left;
+  width: 50%;
+  text-align: justify;
+  overflow: auto;
+  height: 200px;
+  padding: 10px;
+}
+
+.blok {
+  border: 3px solid #435585;
+  border-radius: 5px;
+  padding: 10px 0px;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  overflow: hidden;
+  margin: 20px 10px;
+}
+.blok img{
+  border-radius: 3px;
+}
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.informBox {
+  overflow: auto;
+  height: 150px;
+  padding: 10px;
+  text-align: justify;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #363062;
+  color: #f5e8c7;
+}
+
+@media only screen and (max-width: 642px) {
+  li {
+    display: block;
+  }
+  .blok {
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .informUpBox {
+    text-align: center;
+  }
+  .text {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 945px) {
+  .mainInform {
+    padding: 0px 0px;
+  }
+}
